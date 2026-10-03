@@ -1,0 +1,5 @@
+records_raw*.json
+server.cmd
+server.log
+shot-*.png
+.playwright-mcp/
