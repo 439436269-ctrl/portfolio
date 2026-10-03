@@ -92,7 +92,7 @@ const OTHERS = [
 ];
 
 const META = {
-  owner: "吕超杰",
+  owner: "vfvrpq",
   updated: "2026-10-03",
   source: "飞书多维表格「开发项目」",
   github: "https://github.com/439436269-ctrl"
