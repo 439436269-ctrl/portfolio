@@ -97,8 +97,7 @@ const PROJECTS = [
     links: [
       { kind: "site", label: "在线访问", url: "https://439436269-ctrl.github.io/ae86-route-map/" },
       { kind: "zhihu", label: "知乎专栏", url: "https://zhuanlan.zhihu.com/p/2089803837565683612" },
-      { kind: "wechat", label: "微信公众号", url: "https://mp.weixin.qq.com/s/UYt4wB4tYxvip3a0ANOwrA" },
-      { kind: "site", label: "落地页", url: "https://439436269-ctrl.github.io/ae86-route-map/（仓库/" }
+      { kind: "wechat", label: "微信公众号", url: "https://mp.weixin.qq.com/s/UYt4wB4tYxvip3a0ANOwrA" }
     ]
   }
 ];
