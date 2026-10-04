@@ -79,9 +79,9 @@ const PROJECTS = [
     desc: "猫语 ⇄ 人话双向互译：麦克风实时声纹分析 + 手动状态自动回翻猫语，收录 21 条真实猫叫片段（9 类情绪）做识别样例与情绪回放。网页 + Android APK，翻译记录同步飞书多维表格。",
     tech: "Web Audio 实时分析 · Android APK · 飞书同步",
     links: [
+      { kind: "site", label: "落地页", url: "https://439436269-ctrl.github.io/meow-translator-web/" },
       { kind: "zhihu", label: "知乎专栏", url: "https://zhuanlan.zhihu.com/p/2088645856379642630" },
-      { kind: "github", label: "GitHub 仓库", url: "https://github.com/439436269-ctrl/meow-translator" },
-      { kind: "site", label: "落地页", url: "https://439436269-ctrl.github.io/meow-translator-web/" }
+      { kind: "github", label: "GitHub 仓库", url: "https://github.com/439436269-ctrl/meow-translator" }
     ],
     note: "公众号同名文章已发表"
   },
