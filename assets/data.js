@@ -36,6 +36,23 @@ const PROJECTS = [
   },
   {
     idx: "03",
+    kicker: "APP · MULTI-PLATFORM",
+    name: "轻记 TODO",
+    type: "App",
+    stage: "已上线 · 持续迭代",
+    live: true,
+    date: "2026.09.27",
+    desc: "多端任务清单：网页 + Android + iOS 一键安装，与你自己的飞书多维表格秒级双向同步，截止前多档提醒直达系统通知。落地页含网页版、APK 与 IPA 直链；配套知乎专栏与公众号文章。",
+    tech: "飞书多维表格同步 · 本地优先 · GitHub Pages",
+    links: [
+      { kind: "site", label: "落地页", url: "https://439436269-ctrl.github.io/qingji-todo-web/" },
+      { kind: "zhihu", label: "知乎专栏", url: "https://zhuanlan.zhihu.com/p/2089678039181543278" },
+      { kind: "github", label: "GitHub 仓库", url: "https://github.com/439436269-ctrl/qingji-todo" }
+    ],
+    note: "公众号同名文章已发表"
+  },
+  {
+    idx: "04",
     kicker: "AI SHORT DRAMA · 双版本连载",
     name: "唐诗三百首 · 一首诗一出戏",
     type: "内容系列",
@@ -51,7 +68,7 @@ const PROJECTS = [
     note: "小红书 · 抖音 · 视频号同名连载中"
   },
   {
-    idx: "04",
+    idx: "05",
     kicker: "APP · PLAYFUL AI",
     name: "猫咪叫声翻译器",
     type: "App",
@@ -67,7 +84,7 @@ const PROJECTS = [
     note: "公众号同名文章已发表"
   },
   {
-    idx: "05",
+    idx: "06",
     kicker: "WEB MAP · INITIAL D",
     name: "一路向北 · AE86 秋名山决战路线图",
     type: "网页",
@@ -84,16 +101,17 @@ const PROJECTS = [
   }
 ];
 
-/* 公开但暂无介绍文章的项目 */
+/* 公开但暂无介绍文章的项目（按启动时间排列） */
 const OTHERS = [
   { name: "llm-cli", tag: "npm 包", desc: "GLM / DeepSeek 命令行客户端", url: "https://www.npmjs.com/package/@vfvrpq/llm-cli" },
+  { name: "超盛纺配产品站", tag: "网页", desc: "必佳诺 PICANOL 喷气织机配件：601+ 型号在线图鉴与 PDF 画册双视图", url: "https://439436269-ctrl.github.io/chaosheng/" },
   { name: "杭州求职链接手账", tag: "网页", desc: "官网 / 岗位链接静态站点", url: "https://439436269-ctrl.github.io/hangzhou-job-links/" },
   { name: "玉皇山公园亲子路线图", tag: "网页", desc: "GPS 照片路线图 + 旁白故事视频", url: "https://439436269-ctrl.github.io/yuhuangshan-park-map/" }
 ];
 
 const META = {
   owner: "vfvrpq",
-  updated: "2026-10-03",
+  updated: "2026-10-04",
   source: "飞书多维表格「开发项目」",
   github: "https://github.com/439436269-ctrl"
 };
