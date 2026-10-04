@@ -104,7 +104,6 @@ const PROJECTS = [
 /* 公开但暂无介绍文章的项目（按启动时间排列） */
 const OTHERS = [
   { name: "llm-cli", tag: "npm 包", desc: "GLM / DeepSeek 命令行客户端", url: "https://www.npmjs.com/package/@vfvrpq/llm-cli" },
-  { name: "超盛纺配产品站", tag: "网页", desc: "必佳诺 PICANOL 喷气织机配件：601+ 型号在线图鉴与 PDF 画册双视图", url: "https://439436269-ctrl.github.io/chaosheng/" },
   { name: "杭州求职链接手账", tag: "网页", desc: "官网 / 岗位链接静态站点", url: "https://439436269-ctrl.github.io/hangzhou-job-links/" },
   { name: "玉皇山公园亲子路线图", tag: "网页", desc: "GPS 照片路线图 + 旁白故事视频", url: "https://439436269-ctrl.github.io/yuhuangshan-park-map/" }
 ];
