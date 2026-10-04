@@ -30,6 +30,7 @@ const PROJECTS = [
     tech: "MapLibre · 26 期取景地 · npm 组件化",
     links: [
       { kind: "site", label: "在线访问", url: "https://439436269-ctrl.github.io/sample-diary-map/" },
+      { kind: "bilibili", label: "B站 · 我们的投稿", url: "https://www.bilibili.com/video/BV16Baq69Eo5" },
       { kind: "bilibili", label: "《样片日记》B站合集", url: "https://space.bilibili.com/946974/lists/2046621?type=season" },
       { kind: "npm", label: "@vfvrpq/route-tour-map", url: "https://www.npmjs.com/package/@vfvrpq/route-tour-map" }
     ]
