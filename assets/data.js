@@ -46,8 +46,8 @@ const PROJECTS = [
     tech: "飞书多维表格同步 · 本地优先 · GitHub Pages",
     links: [
       { kind: "site", label: "落地页", url: "https://439436269-ctrl.github.io/qingji-todo-web/" },
-      { kind: "zhihu", label: "知乎专栏", url: "https://zhuanlan.zhihu.com/p/2089678039181543278" },
-      { kind: "github", label: "GitHub 仓库", url: "https://github.com/439436269-ctrl/qingji-todo" }
+      { kind: "github", label: "GitHub 仓库", url: "https://github.com/439436269-ctrl/qingji-todo" },,
+      { kind: "zhihu", label: "知乎专栏", url: "https://zhuanlan.zhihu.com/p/2089678039181543278" }
     ],
     note: "公众号同名文章已发表"
   },
