@@ -29,8 +29,8 @@ const PROJECTS = [
     desc: "把 B 站《样片日记》26 期的全球取景地搬上互动地图：点击地图节点展示对应信息，并可直达该期视频；小红书竖版视频笔记与抖音已同步发布。同款能力已抽成 npm 包 @vfvrpq/route-tour-map。",
     tech: "MapLibre · 26 期取景地 · npm 组件化",
     links: [
-      { kind: "site", label: "在线访问", url: "https://439436269-ctrl.github.io/sample-diary-map/" },
       { kind: "bilibili", label: "B站 · 我们的投稿", url: "https://www.bilibili.com/video/BV16Baq69Eo5" },
+      { kind: "site", label: "在线访问", url: "https://439436269-ctrl.github.io/sample-diary-map/" },
       { kind: "bilibili", label: "《样片日记》B站合集", url: "https://space.bilibili.com/946974/lists/2046621?type=season" },
       { kind: "npm", label: "@vfvrpq/route-tour-map", url: "https://www.npmjs.com/package/@vfvrpq/route-tour-map" }
     ]
