@@ -107,12 +107,15 @@ const PROJECTS = [
 const OTHERS = [
   { name: "llm-cli", tag: "npm 包", desc: "GLM / DeepSeek 命令行客户端", url: "https://www.npmjs.com/package/@vfvrpq/llm-cli" },
   { name: "杭州求职链接手账", tag: "网页", desc: "官网 / 岗位链接静态站点", url: "https://439436269-ctrl.github.io/hangzhou-job-links/" },
-  { name: "玉皇山公园亲子路线图", tag: "网页", desc: "GPS 照片路线图 + 旁白故事视频", url: "https://439436269-ctrl.github.io/yuhuangshan-park-map/" }
+  { name: "玉皇山公园亲子路线图", tag: "网页", desc: "GPS 照片路线图 + 旁白故事视频", url: "https://439436269-ctrl.github.io/yuhuangshan-park-map/" },
+  { name: "@vfvrpq/dsh-pinned-sessions", tag: "DSH 插件", desc: "Harness 侧栏置顶会话分组 · 就地搜索 · 跨工作区", url: "https://www.npmjs.com/package/@vfvrpq/dsh-pinned-sessions" },
+  { name: "dsh-piano", tag: "DSH 插件", desc: "界面内滑动钢琴，刮奏出声（Web Audio 合成）", url: "https://www.npmjs.com/package/dsh-piano" },
+  { name: "dsh-scroll-piano", tag: "DSH 插件", desc: "滑过聊天区右缘按音高出声 + 我的消息刻度跳转", url: "https://www.npmjs.com/package/dsh-scroll-piano" }
 ];
 
 const META = {
   owner: "vfvrpq",
-  updated: "2026-10-04",
-  source: "飞书多维表格「开发项目」",
+  updated: "2026-10-10",
+  source: "飞书多维表格「开发项目」+ DSH 插件笔记",
   github: "https://github.com/439436269-ctrl"
 };
