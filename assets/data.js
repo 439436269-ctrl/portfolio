@@ -100,6 +100,23 @@ const PROJECTS = [
       { kind: "zhihu", label: "知乎专栏", url: "https://zhuanlan.zhihu.com/p/2089803837565683612" },
       { kind: "wechat", label: "微信公众号", url: "https://mp.weixin.qq.com/s/UYt4wB4tYxvip3a0ANOwrA" }
     ]
+  },
+  {
+    idx: "07",
+    kicker: "PLUGINS · DEEPSEEK HARNESS",
+    name: "DSH 插件集 · 给 Harness 写的界面扩展",
+    type: "插件",
+    stage: "已发布 · 持续迭代",
+    live: true,
+    date: "2026.10.09",
+    desc: "给 DeepSeek Harness 写的一套界面插件：侧栏「置顶会话」分组（原生行度量、就地搜索、跨工作区）；会话路径与接续（会话 header 一键复制接续块，并把多帧 zstd 会话日志解压成可读文件，让另一个会话接着干）；外加两个钢琴玩具——界面内滑动钢琴（按住横向滑动即刮奏）与聊天区右缘的滚动钢琴（按鼠标纵向位置出声，带「我的消息」小地图刻度，点一下跳到那条消息）。四个包均已发到 npm。",
+    tech: "DSH 插件 · Web Audio 实时合成 · 手写零构建客户端 bundle · npm",
+    links: [
+      { kind: "npm", label: "@vfvrpq/dsh-pinned-sessions", url: "https://www.npmjs.com/package/@vfvrpq/dsh-pinned-sessions" },
+      { kind: "npm", label: "dsh-session-path", url: "https://www.npmjs.com/package/dsh-session-path" },
+      { kind: "npm", label: "dsh-piano", url: "https://www.npmjs.com/package/dsh-piano" },
+      { kind: "npm", label: "dsh-scroll-piano", url: "https://www.npmjs.com/package/dsh-scroll-piano" }
+    ]
   }
 ];
 
@@ -107,10 +124,7 @@ const PROJECTS = [
 const OTHERS = [
   { name: "llm-cli", tag: "npm 包", desc: "GLM / DeepSeek 命令行客户端", url: "https://www.npmjs.com/package/@vfvrpq/llm-cli" },
   { name: "杭州求职链接手账", tag: "网页", desc: "官网 / 岗位链接静态站点", url: "https://439436269-ctrl.github.io/hangzhou-job-links/" },
-  { name: "玉皇山公园亲子路线图", tag: "网页", desc: "GPS 照片路线图 + 旁白故事视频", url: "https://439436269-ctrl.github.io/yuhuangshan-park-map/" },
-  { name: "@vfvrpq/dsh-pinned-sessions", tag: "DSH 插件", desc: "Harness 侧栏置顶会话分组 · 就地搜索 · 跨工作区", url: "https://www.npmjs.com/package/@vfvrpq/dsh-pinned-sessions" },
-  { name: "dsh-piano", tag: "DSH 插件", desc: "界面内滑动钢琴，刮奏出声（Web Audio 合成）", url: "https://www.npmjs.com/package/dsh-piano" },
-  { name: "dsh-scroll-piano", tag: "DSH 插件", desc: "滑过聊天区右缘按音高出声 + 我的消息刻度跳转", url: "https://www.npmjs.com/package/dsh-scroll-piano" }
+  { name: "玉皇山公园亲子路线图", tag: "网页", desc: "GPS 照片路线图 + 旁白故事视频", url: "https://439436269-ctrl.github.io/yuhuangshan-park-map/" }
 ];
 
 const META = {
