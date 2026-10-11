@@ -100,7 +100,8 @@ const PROJECTS = [
       { kind: "zhihu", label: "知乎专栏", url: "https://zhuanlan.zhihu.com/p/2089803837565683612" },
       { kind: "wechat", label: "微信公众号", url: "https://mp.weixin.qq.com/s/UYt4wB4tYxvip3a0ANOwrA" }
     ]
-  }  {
+  },
+  {
     idx: "07",
     kicker: "PLUGINS · DEEPSEEK HARNESS",
     name: "DSH 插件集 · 给 Harness 写的界面扩展",
@@ -124,7 +125,7 @@ const PROJECTS = [
 const OTHERS = [
   { name: "llm-cli", tag: "npm 包", desc: "GLM / DeepSeek 命令行客户端", url: "https://www.npmjs.com/package/@vfvrpq/llm-cli" },
   { name: "杭州求职链接手账", tag: "网页", desc: "官网 / 岗位链接静态站点", url: "https://439436269-ctrl.github.io/hangzhou-job-links/" },
-  { name: "玉皇山公园亲子路线图", tag: "网页", desc: "GPS 照片路线图 + 旁白故事视频", url: "https://439436269-ctrl.github.io/yuhuangshan-park-map/" }
+  { name: "玉皇山公园亲子路线图", tag: "网页", desc: "GPS 照片路线图 + 旁白故事视频", url: "https://439436269-ctrl.github.io/yuhuangshan-park-map/" },
   { name: "Link2QR · 链接转二维码 Chrome 插件", tag: "插件", desc: "类似草料的链接转二维码 Chrome 扩展：一键把当前网页链接或任意文本生成二维码，支持下载 PNG、复制图片、右键菜单", url: "https://439436269-ctrl.github.io/link2qr/" },
 ];
 
