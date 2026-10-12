@@ -64,7 +64,8 @@ const PROJECTS = [
     tech: "全 AI 管线：TTS 配音 · 关键帧 · SRT 字幕 · 批量成片",
     links: [
       { kind: "bilibili", label: "B站 · EP01 读诗版", url: "https://www.bilibili.com/video/BV1Aiaj6vEkw" },
-      { kind: "bilibili", label: "B站 · EP01 故事版", url: "https://www.bilibili.com/video/BV16NaE6eEVG" }
+      { kind: "bilibili", label: "B站 · EP01 故事版", url: "https://www.bilibili.com/video/BV16NaE6eEVG" },
+      { kind: "github", label: "配套插件（19 个 skill）", url: "https://github.com/439436269-ctrl/dsh-video-pipeline" }
     ],
     note: "小红书 · 抖音 · 视频号同名连载中"
   },
