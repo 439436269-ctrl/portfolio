@@ -1,0 +1,49 @@
+name: CI
+
+# 为什么需要这套 CI：本仓有**两个写入方**（两台机器 + 一个每日同步脚本）都在改 assets/data.js，
+# 而 Pages 是自动部署的 —— 坏数据会直接上线（整页白屏，或某个项目渲染不出来）。
+# 这里只做便宜、确定的检查：不装任何依赖（站点本身零依赖零构建），一条命令跑完。
+#
+# 两个 job 的分工：
+#   validate   —— 每次 push / PR 都跑：语法、数据结构、kind 与域名、站点文件自洽。
+#   live-site  —— 只在 main 上跑：等 Pages 部署完，把线上 data.js 与本次提交逐字节比对。
+#                 「本地绿」不等于「线上正确」，所以这一步是必要的，不是重复。
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Validate site data
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Check assets/data.js and index.html
+        run: node tools/validate-data.mjs
+
+  live-site:
+    name: Verify the deployed site
+    # PR 还没有部署，验线上没有意义
+    if: github.event_name == 'push'
+    needs: validate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Compare the deployed data.js with this commit
+        run: node tools/check-live-site.mjs
