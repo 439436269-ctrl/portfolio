@@ -129,11 +129,12 @@ const OTHERS = [
   { name: "杭州求职链接手账", tag: "网页", desc: "官网 / 岗位链接静态站点", url: "https://439436269-ctrl.github.io/hangzhou-job-links/" },
   { name: "玉皇山公园亲子路线图", tag: "网页", desc: "GPS 照片路线图 + 旁白故事视频", url: "https://439436269-ctrl.github.io/yuhuangshan-park-map/" },
   { name: "Link2QR · 链接转二维码 Chrome 插件", tag: "插件", desc: "类似草料的链接转二维码 Chrome 扩展：一键把当前网页链接或任意文本生成二维码，支持下载 PNG、复制图片、右键菜单", url: "https://439436269-ctrl.github.io/link2qr/" },
+  { name: "dsh-media-preview", tag: "插件", desc: "给 DSH 右侧栏补上视频/音频预览：原生播放器 + 带鉴权的 HTTP Range 流式路由，支持拖动进度、倍速与循环", url: "https://www.npmjs.com/package/dsh-media-preview" },
 ];
 
 const META = {
   owner: "vfvrpq",
-  updated: "2026-10-12",
+  updated: "2026-10-17",
   source: "飞书多维表格「开发项目」",
   github: "https://github.com/439436269-ctrl"
 };
