@@ -110,14 +110,14 @@ const PROJECTS = [
     stage: "已发布 · 持续迭代",
     live: true,
     date: "2026.10.09",
-    desc: "给 DeepSeek Harness 写的一套插件：侧栏「置顶会话」分组（原生行度量、就地搜索、跨工作区）；会话路径与接续（会话 header 一键复制接续块，并把多帧 zstd 会话日志解压成可读文件，让另一个会话接着干）；外加两个钢琴玩具——界面内滑动钢琴（按住横向滑动即刮奏）与聊天区右缘的滚动钢琴（按鼠标纵向位置出声，带「我的消息」小地图刻度，点一下跳到那条消息）；极空间 NAS 文件工具 dsh-zspace（13 个 zspace_* 工具；同一网络直连 WebDAV、跨网络走云中转自动选路）；视频/音频预览 dsh-media-preview（原生播放器 + 带鉴权的 HTTP Range 流式路由，可拖进度、倍速、循环）；以及 AI 街机厅 dsh-ai-arcade（贪吃蛇与中国象棋——模型负责「想」，出策略卡、只解说；本地引擎负责「动」，60fps 规则与 alpha-beta 棋力全在本地，断网也照常能玩）；以及网页搜索插件 @vfvrpq/dsh-search（把 DeepSeek 官方 Search/Fetch 接口包成 deepseek_search / deepseek_fetch / deepseek_research 三个工具，返回带 rerank 分、权威度与发布时间的结构化结果）。八个包均已发到 npm。",
+    desc: "给 DeepSeek Harness 写的一套插件：侧栏「置顶会话」分组（原生行度量、就地搜索、跨工作区）；会话路径与接续（会话 header 一键复制接续块，并把多帧 zstd 会话日志解压成可读文件，让另一个会话接着干）；外加两个钢琴玩具——界面内滑动钢琴（按住横向滑动即刮奏）与聊天区右缘的滚动钢琴（按鼠标纵向位置出声，带「我的消息」小地图刻度，点一下跳到那条消息）；极空间 NAS 与 Docker 运维工具 dsh-zspace（19 个 zspace_* 工具，0.4.0 起把容器运维并进主插件：docker list / inspect / logs / op、引擎健康诊断与整机重启；同一网络直连 WebDAV、跨网络走云中转自动选路）；视频/音频预览 dsh-media-preview（原生播放器 + 带鉴权的 HTTP Range 流式路由，可拖进度、倍速、循环）；以及 AI 街机厅 dsh-ai-arcade（贪吃蛇与中国象棋——模型负责「想」，出策略卡、只解说；本地引擎负责「动」，60fps 规则与 alpha-beta 棋力全在本地，断网也照常能玩）；以及网页搜索插件 @vfvrpq/dsh-search（把 DeepSeek 官方 Search/Fetch 接口包成 deepseek_search / deepseek_fetch / deepseek_research 三个工具，返回带 rerank 分、权威度与发布时间的结构化结果）。八个包均已发到 npm。",
     tech: "DSH 插件 · Web Audio 实时合成 · 手写零构建客户端 bundle · 带鉴权 Range 流式路由 · WebDAV/云中转双通道 · 本地规则引擎 + LLM 策略层 · 官方 Search/Fetch 结构化封装 · npm",
     links: [
       { kind: "npm", label: "@vfvrpq/dsh-pinned-sessions", url: "https://www.npmjs.com/package/@vfvrpq/dsh-pinned-sessions" },
       { kind: "npm", label: "dsh-session-path", url: "https://www.npmjs.com/package/dsh-session-path" },
       { kind: "npm", label: "dsh-piano", url: "https://www.npmjs.com/package/dsh-piano" },
       { kind: "npm", label: "dsh-scroll-piano", url: "https://www.npmjs.com/package/dsh-scroll-piano" },
-      { kind: "npm", label: "dsh-zspace", url: "https://www.npmjs.com/package/dsh-zspace" },
+      { kind: "npm", label: "dsh-zspace 0.4.0", url: "https://www.npmjs.com/package/dsh-zspace" },
       { kind: "npm", label: "dsh-media-preview", url: "https://www.npmjs.com/package/dsh-media-preview" },
       { kind: "npm", label: "dsh-ai-arcade", url: "https://www.npmjs.com/package/dsh-ai-arcade" },
       { kind: "npm", label: "@vfvrpq/dsh-search", url: "https://www.npmjs.com/package/@vfvrpq/dsh-search" }
@@ -135,7 +135,7 @@ const OTHERS = [
 
 const META = {
   owner: "vfvrpq",
-  updated: "2026-10-17",
+  updated: "2026-10-18",
   source: "飞书多维表格「开发项目」",
   github: "https://github.com/439436269-ctrl"
 };
