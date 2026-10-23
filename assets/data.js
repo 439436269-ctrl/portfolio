@@ -122,8 +122,7 @@ const PROJECTS = [
       { kind: "npm", label: "dsh-ai-arcade", url: "https://www.npmjs.com/package/dsh-ai-arcade" },
       { kind: "npm", label: "@vfvrpq/dsh-search", url: "https://www.npmjs.com/package/@vfvrpq/dsh-search" },
       { kind: "npm", label: "dsh-blend-preview", url: "https://www.npmjs.com/package/dsh-blend-preview" },
-      { kind: "npm", label: "dsh-stl-preview", url: "https://www.npmjs.com/package/dsh-stl-preview" },
-      { kind: "github", label: "dsh-makerworld · MakerWorld 流水线", url: "https://github.com/439436269-ctrl/dsh-makerworld" }
+      { kind: "npm", label: "dsh-stl-preview", url: "https://www.npmjs.com/package/dsh-stl-preview" }
     ]
   },
   {
@@ -138,6 +137,20 @@ const PROJECTS = [
     tech: "Blender headless 参数化建模 · CSG 布尔 · 非流形校核（0 条） · 水密性判断 · PETG 免支撑 · MakerWorld",
     links: [
       { kind: "site", label: "MakerWorld 模型页", url: "https://makerworld.com.cn/zh/models/3132492-pan-zi-jia-jie-shui-di-zuo-liang-kuai-du-li-shui-p" }
+    ]
+  },
+  {
+    idx: "09",
+    kicker: "SKILL PACK · DEEPSEEK HARNESS",
+    name: "dsh-makerworld · 把 MakerWorld 出货流水线装进 agent",
+    type: "插件",
+    stage: "已发布 · v0.1.0",
+    live: true,
+    date: "2026.10.23",
+    desc: "上面那件接水底座的「出货流程」，被固化成了一个 DSH skill 包：从设计到上架有六个互不相同的失败模式——打不出来、看不出、文案不合规、登录掉、静默未发布、3MF 传成 0 字节——每个模式一个原子 skill，每个原子都能单独测。包里是一个编排（mw-ship：设计 → 校核 → 渲染 → 文案 → 发布模型 → 加打印配置，含四道确认门）加五个原子（建模骨架 blender-part、可打印性校核 print-part-check、文案合规 mw-listing-check、登录态 makerworld-session、平台手册 makerworld-publish）。装完即用：插件在 ctx.skills 上注册一个 rank 600 的 provider，skill 随包走，不往 ~/.agents/skills 拷任何文件；你自己的同名 skill 会胜出，不会被遮蔽。判据不靠自我声明——建模脚本自报的体积与校核脚本独立解析同一 STL 的结果要对得上（模板件 47.1 vs 47.11 cm³）。另附可选的多子代理形态：主代理只做确认门，设计/文案/渲染/发布各派一个子代理，发布那一步独占浏览器会话、必须串行。",
+    tech: "DSH skill provider（rank 600） · 零运行时依赖 · 手写 YAML frontmatter 解析 · 1 编排 + 5 原子 · Blender headless · 可打印性判据 · GitHub 直装",
+    links: [
+      { kind: "github", label: "dsh-makerworld 仓库", url: "https://github.com/439436269-ctrl/dsh-makerworld" }
     ]
   }
 ];
