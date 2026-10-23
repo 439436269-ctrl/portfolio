@@ -134,11 +134,12 @@ const OTHERS = [
   { name: "玉皇山公园亲子路线图", tag: "网页", desc: "GPS 照片路线图 + 旁白故事视频", url: "https://439436269-ctrl.github.io/yuhuangshan-park-map/" },
   { name: "Link2QR · 链接转二维码 Chrome 插件", tag: "插件", desc: "类似草料的链接转二维码 Chrome 扩展：一键把当前网页链接或任意文本生成二维码，支持下载 PNG、复制图片、右键菜单", url: "https://439436269-ctrl.github.io/link2qr/" },
   { name: "baby-blocks 婴儿积木", tag: "开源", desc: "汉诺塔/不倒翁/12生肖,OpenSCAD参数化+硅胶浇注", url: "https://github.com/439436269-ctrl/baby-blocks" },
+  { name: "盘子架接水底座 · 3D 打印", tag: "3D 打印", desc: "给 306×113 竹制盘子架配的免胶免榫接水底座：322×129×16 拆成两块各自完整的水盘，单块 98.5 cm³ / 113 g，PETG 免支撑，已实机打印验证", url: "https://makerworld.com.cn/zh/models/3132492-pan-zi-jia-jie-shui-di-zuo-liang-kuai-du-li-shui-p" },
 ];
 
 const META = {
   owner: "vfvrpq",
-  updated: "2026-10-21",
+  updated: "2026-10-23",
   source: "飞书多维表格「开发项目」",
   github: "https://github.com/439436269-ctrl"
 };
