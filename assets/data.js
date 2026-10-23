@@ -125,6 +125,20 @@ const PROJECTS = [
       { kind: "npm", label: "dsh-stl-preview", url: "https://www.npmjs.com/package/dsh-stl-preview" },
       { kind: "github", label: "dsh-makerworld · MakerWorld 流水线", url: "https://github.com/439436269-ctrl/dsh-makerworld" }
     ]
+  },
+  {
+    idx: "08",
+    kicker: "3D PRINTING · MAKERWORLD",
+    name: "盘子架接水底座 · 让竹架不再滴水",
+    type: "3D 模型",
+    stage: "已发布 · 已实机打印",
+    live: true,
+    date: "2026.10.21",
+    desc: "厨房的竹制盘子架滴水，台面永远是湿的——市面上的接水盘要么尺寸不对，要么是软胶。给它配了一个接水底座：整体 322×129×16 mm，因为一块打不下 306 mm，拆成两块各自完整的水盘并排放，不用胶、不用榫，也就没有漏水路径；每侧一条平坐面把方木抬到水面之上（坐面高 9 mm、溢流堰 7.5 mm，留 1.5 mm 余量），坐面高度跟方木多宽无关，所以换一副架子也照样坐得稳；中间那道矮墙顺手兼作跨中加强筋。单块 161×129×16，240×240 的床同板打完、免支撑，98.5 cm³ / 113 g，PETG 打印；已实机装配验证，模型与打印配置发布在 MakerWorld。",
+    tech: "Blender headless 参数化建模 · CSG 布尔 · 非流形校核（0 条） · 水密性判断 · PETG 免支撑 · MakerWorld",
+    links: [
+      { kind: "site", label: "MakerWorld 模型页", url: "https://makerworld.com.cn/zh/models/3132492-pan-zi-jia-jie-shui-di-zuo-liang-kuai-du-li-shui-p" }
+    ]
   }
 ];
 
@@ -135,7 +149,6 @@ const OTHERS = [
   { name: "玉皇山公园亲子路线图", tag: "网页", desc: "GPS 照片路线图 + 旁白故事视频", url: "https://439436269-ctrl.github.io/yuhuangshan-park-map/" },
   { name: "Link2QR · 链接转二维码 Chrome 插件", tag: "插件", desc: "类似草料的链接转二维码 Chrome 扩展：一键把当前网页链接或任意文本生成二维码，支持下载 PNG、复制图片、右键菜单", url: "https://439436269-ctrl.github.io/link2qr/" },
   { name: "baby-blocks 婴儿积木", tag: "开源", desc: "汉诺塔/不倒翁/12生肖,OpenSCAD参数化+硅胶浇注", url: "https://github.com/439436269-ctrl/baby-blocks" },
-  { name: "盘子架接水底座 · 3D 打印", tag: "3D 打印", desc: "给 306×113 竹制盘子架配的免胶免榫接水底座：322×129×16 拆成两块各自完整的水盘，单块 98.5 cm³ / 113 g，PETG 免支撑，已实机打印验证", url: "https://makerworld.com.cn/zh/models/3132492-pan-zi-jia-jie-shui-di-zuo-liang-kuai-du-li-shui-p" },
 ];
 
 const META = {
