@@ -71,6 +71,22 @@ const PROJECTS = [
   },
   {
     idx: "05",
+    kicker: "SLEEP STORY · 成语连载",
+    name: "晚安故事 · 1 岁宝宝的成语睡前故事",
+    type: "内容系列",
+    stage: "连载更新中 · EP19",
+    live: true,
+    date: "2026.10.20",
+    desc: "面向 1 岁幼儿的睡前故事系列：每集从《中国成语故事》里选一则，原文只断句不改写，配慢速轻声 TTS、绘本风场景图与预折行字幕，做成 90–130 秒竖屏成片。EP01–EP19 已在 B站 / 抖音 / 视频号三平台连载，合集全序、每集双封面；B站已挂「来B站，睡个好觉」活动话题。产线全自动：每日 08:10 / 12:10 / 18:10 三档定时发布，20:10 补产到 3 集缓冲，发布前过 9 项 QA（分辨率、时长、配音能量、首句静音、亮度、faststart）。",
+    tech: "全 AI 管线：Seedream 出图 · TTS 配音 · zoompan 运镜 · SRT 预折行 · 三平台自动发布 · 浏览器实测断行",
+    links: [
+      { kind: "bilibili", label: "B站 · 晚安故事合集（19 集）", url: "https://space.bilibili.com/34078814/channel/collectiondetail?sid=9321608" },
+      { kind: "bilibili", label: "B站 · EP01 画蛇添足", url: "https://www.bilibili.com/video/BV13Spr68E6r" },
+      { kind: "bilibili", label: "B站 · 最新 EP19", url: "https://www.bilibili.com/video/BV1Uent6LEVc" }
+    ]
+  },
+  {
+    idx: "06",
     kicker: "APP · PLAYFUL AI",
     name: "猫咪叫声翻译器",
     type: "App",
@@ -87,7 +103,7 @@ const PROJECTS = [
     note: "公众号同名文章已发表"
   },
   {
-    idx: "06",
+    idx: "07",
     kicker: "WEB MAP · INITIAL D",
     name: "一路向北 · AE86 秋名山决战路线图",
     type: "网页",
@@ -103,7 +119,7 @@ const PROJECTS = [
     ]
   },
   {
-    idx: "07",
+    idx: "08",
     kicker: "PLUGINS · DEEPSEEK HARNESS",
     name: "DSH 插件集 · 给 Harness 写的界面扩展",
     type: "插件",
@@ -126,7 +142,7 @@ const PROJECTS = [
     ]
   },
   {
-    idx: "08",
+    idx: "09",
     kicker: "3D PRINTING · MAKERWORLD",
     name: "盘子架接水底座 · 让竹架不再滴水",
     type: "3D 模型",
@@ -140,7 +156,7 @@ const PROJECTS = [
     ]
   },
   {
-    idx: "09",
+    idx: "10",
     kicker: "SKILL PACK · DEEPSEEK HARNESS",
     name: "dsh-makerworld · 把 MakerWorld 出货流水线装进 agent",
     type: "插件",
