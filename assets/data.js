@@ -184,11 +184,12 @@ const OTHERS = [
   { name: "Link2QR · 链接转二维码 Chrome 插件", tag: "插件", desc: "类似草料的链接转二维码 Chrome 扩展：一键把当前网页链接或任意文本生成二维码，支持下载 PNG、复制图片、右键菜单", url: "https://439436269-ctrl.github.io/link2qr/" },
   { name: "baby-blocks 婴儿积木", tag: "开源", desc: "汉诺塔/不倒翁/12生肖,OpenSCAD参数化+硅胶浇注", url: "https://github.com/439436269-ctrl/baby-blocks" },
   { name: "dsh-superagent 主动式 agent", tag: "agent", desc: "把 GitHub issue 与飞书群消息变成工单：开独立 worktree 干活 → 提交 → 开 PR → 回到线程里回话；含 Windows 移植、任意 IM 桥接与超级会话调度（读别的会话、给别的会话发消息或中断）", url: "https://github.com/439436269-ctrl/dsh-superagent" },
+  { name: "wifi-site-survey 家庭 WiFi 点位实测", tag: "开源", desc: "走到每个位置扫各 AP 信号、逐个 SSID 测吞吐，输出可直接写进报告的数据；含四个测量坑（连着扫信号偏低、刚连上测速偏低、多线程相加虚高、镜像站拦 UA）", url: "https://github.com/439436269-ctrl/wifi-site-survey" },
 ];
 
 const META = {
   owner: "vfvrpq",
-  updated: "2026-11-06",
+  updated: "2026-11-08",
   source: "飞书多维表格「开发项目」",
   github: "https://github.com/439436269-ctrl"
 };
