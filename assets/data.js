@@ -143,7 +143,7 @@ const PROJECTS = [
       { kind: "npm", label: "@vfvrpq/dsh-search", url: "https://www.npmjs.com/package/@vfvrpq/dsh-search" },
       { kind: "npm", label: "@vfvrpq/dsh-sticky-notes 0.2.0", url: "https://www.npmjs.com/package/@vfvrpq/dsh-sticky-notes" },
       { kind: "npm", label: "@vfvrpq/dsh-file-explorer 0.2.0", url: "https://www.npmjs.com/package/@vfvrpq/dsh-file-explorer" },
-      { kind: "npm", label: "dsh-automations 0.2.0", url: "https://www.npmjs.com/package/dsh-automations" }
+      { kind: "npm", label: "dsh-automations 0.2.1", url: "https://www.npmjs.com/package/dsh-automations" }
     ]
   },
   {
